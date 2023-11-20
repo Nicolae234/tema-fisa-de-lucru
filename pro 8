@@ -1,0 +1,7 @@
+n = int(input("Introduceți nr de zile: "))
+nrc = 6
+for zi in range(n):
+     nrc -= 1
+     nrc += 6
+
+print("Numărul de capete după",n, "zile este:",nrc)
