@@ -1,0 +1,8 @@
+n = int(input("nr zile: "))
+dt = 7
+sar = 7
+for ziua in range(2, n + 1):
+    sar *= 10
+    dt += sar
+
+print("Cangurul a sărit în total", dt," metri în primele", n, "zile.")
