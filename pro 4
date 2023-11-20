@@ -1,0 +1,6 @@
+a,n=eval(input('dati numerele:')
+r = 1
+for i in range(n + 1):
+    r *= (a + i)
+
+print('rezultatul este',r)
