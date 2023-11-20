@@ -1,0 +1,6 @@
+n = int(input("Introduceți un număr n: "))
+s = 0
+for i in range(2, n + 1, 2):
+    s += i
+
+print("Suma numerelor divizibile cu 2 până la",n,' este:',s)
