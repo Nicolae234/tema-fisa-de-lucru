@@ -1,0 +1,7 @@
+for n in range(100, 600):
+    cf = n // 100
+    cz= (n // 10) % 10
+    cu = n % 10
+    if cf <= cz <= cu:
+         if cf + cz + cu == 18:
+               print(n)
