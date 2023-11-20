@@ -1,0 +1,7 @@
+x = int(input("Introduceți un număr x: "))
+n = int(input("Introduceți un număr n: "))
+s = 1
+for i in range(1, n + 1):
+    s += 1 // (i * x)
+
+print('suma este',s)
